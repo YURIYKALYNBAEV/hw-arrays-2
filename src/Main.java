@@ -61,14 +61,14 @@ public class Main {
         System.out.println("Задача №3");
 
         int monthlyPaymentAmount = 0;
-        int daysInMonth = 30;
         float averageAmountSpentPerMonth;
 
         for (int element : arr) {
             monthlyPaymentAmount += element;
         }
 
-        averageAmountSpentPerMonth = ((float) monthlyPaymentAmount / (float) daysInMonth);
+       averageAmountSpentPerMonth = (float) monthlyPaymentAmount / (float) arr.length;
+
 
         System.out.println("Средняя сумма трат в день за месяц составила " + averageAmountSpentPerMonth + " рублей");
 
