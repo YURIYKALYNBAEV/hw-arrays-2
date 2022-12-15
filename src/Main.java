@@ -64,7 +64,9 @@ public class Main {
         float averageAmountSpentPerMonth;
 
         for (int element : arr) {
+
             monthlyPaymentAmount += element;
+
         }
 
        averageAmountSpentPerMonth = (float) monthlyPaymentAmount / (float) arr.length;
